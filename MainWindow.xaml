@@ -19,9 +19,7 @@
         </DataTemplate>
         <DataTemplate DataType="{x:Type vm:TeachersViewModel}">
             <views:TeachersView/>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type vm:SubjectsViewModel}">
-            <views:SubjectsView/>
+
         </DataTemplate>
     </Window.Resources>
 

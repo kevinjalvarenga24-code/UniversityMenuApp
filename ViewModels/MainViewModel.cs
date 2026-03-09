@@ -35,7 +35,7 @@ public partial class MainViewModel : ObservableObject
             "Home" => new HomeViewModel(),
             "Students" => new StudentsViewModel(),
             "Teachers" => new TeachersViewModel(),
-            "Subjects" => new SubjectsViewModel(),
+         
             _ => new HomeViewModel()
         };
     }
