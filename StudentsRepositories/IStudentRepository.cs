@@ -4,7 +4,7 @@ namespace UniversityMenuApp.Repositories;
 
 public interface IStudentRepository
 {
-    List<Student> GetAll();
+    List<Student> GetAllStudents();
 
-    void Add(Student student);
+ 
 }
